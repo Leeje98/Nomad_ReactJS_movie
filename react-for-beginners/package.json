@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d build",  //
+    "predeploy": "npm run build"  //
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   }, 
-  "homepage": "https://Leeje98.github.io/ReactJS_movie"
+  "homepage": "https://Leeje98.github.io/ReactJS_movie" // 추가 후 npm run deploy 실행
 }
